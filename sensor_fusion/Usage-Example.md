@@ -1,3 +1,6 @@
+# Usage-Example
+
+```c
 #include "bme280_driver.h"
 #include "bh1750_driver.h"
 #include "soil_moisture.h"
@@ -23,3 +26,4 @@ void read_environmental_data() {
     printf("Temp: %.1fC | Hum: %.1f%% | Lux: %.0f | VWC: %.1f%%\n", 
            temp, hum, lux, vwc);
 }
+```
