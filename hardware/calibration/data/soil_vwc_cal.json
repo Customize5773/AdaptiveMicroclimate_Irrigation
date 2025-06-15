@@ -1,0 +1,45 @@
+{
+  "calibration_date": "2023-10-15",
+  "sensor_model": "TEROS-10",
+  "soil_type": "Loam",
+  "temperature_compensation": 0.18,
+  "coefficients": {
+    "cubic": [-1.3e-9, 2.8e-5, -0.019, 100.0],
+    "linear": {
+      "slope": -0.032,
+      "intercept": 100.5
+    }
+  },
+  "calibration_points": [
+    {
+      "vwc": 5.0,
+      "raw_adc": 2780,
+      "temperature": 25.0
+    },
+    {
+      "vwc": 15.0,
+      "raw_adc": 2450,
+      "temperature": 25.0
+    },
+    {
+      "vwc": 25.0,
+      "raw_adc": 2100,
+      "temperature": 25.0
+    },
+    {
+      "vwc": 35.0,
+      "raw_adc": 1720,
+      "temperature": 25.0
+    },
+    {
+      "vwc": 45.0,
+      "raw_adc": 1320,
+      "temperature": 25.0
+    }
+  ],
+  "notes": "Use cubic coefficients for best accuracy between 10-40% VWC"
+}
+   - Environmental stress test reports
+   - Long-term drift analysis
+   - Field installation guide
+   - Maintenance schedule
